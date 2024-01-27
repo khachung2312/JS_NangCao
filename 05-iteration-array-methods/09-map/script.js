@@ -3,7 +3,6 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const doubledNumbers = numbers.map((number) => number * 2);
 console.log(doubledNumbers);
 
-// Same with forEach
 const doubledNumbers2 = [];
 numbers.forEach((number) => {
   doubledNumbers2.push(number * 2);
@@ -21,11 +20,7 @@ const companies = [
   { name: 'Company Nine', category: 'Retail', start: 1981, end: 1989 },
 ];
 
-// Create an array of company names
 const companyNames = companies.map((company) => company.name);
-// console.log(companyNames);
-
-// Create an array with just company and category
 const companyInfo = companies.map((company) => {
   return {
     name: company.name,
@@ -33,7 +28,6 @@ const companyInfo = companies.map((company) => {
   };
 });
 
-// Create an array of objects with the name and the length of each company in years
 const companyYears = companies.map((company) => {
   return {
     name: company.name,

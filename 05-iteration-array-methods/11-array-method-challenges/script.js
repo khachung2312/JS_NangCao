@@ -46,7 +46,6 @@ const youngPeople = people
 
 console.log(youngPeople);
 
-// Challenge 2
 const numbers = [2, -30, 50, 20, -12, -9, 7];
 
 const positiveSum = numbers
@@ -55,7 +54,6 @@ const positiveSum = numbers
 
 console.log(positiveSum);
 
-// Challenge 3
 const words = ['coder', 'programmer', 'developer'];
 
 const cWords = words.map((word) => {
